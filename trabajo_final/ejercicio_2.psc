@@ -13,7 +13,7 @@ Algoritmo ejercicio_1
 	//	Dimension C(4);
 	
     escribir "Ingresa la hora de entrada";
-    leer hora_entrada;
+    leer hora_entrada; 
 	
     escribir "Ingresa la hora de salida";
     leer hora_salida;
