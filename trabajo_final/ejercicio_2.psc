@@ -21,16 +21,16 @@ Algoritmo ejercicio_1
 	Si hora_salida < hora_entrada Entonces
 		escribir "La hora de salida no puede ser menor que la hora de entrada";
 	SiNo
-		
+        i <- 1;
+        sumatoria <- 0;
+        
+        Mientras i <= 10  Hacer
+            sumatoria <- sumatoria + i;
+            i <- i + 1;
+        Fin Mientras
 	Fin Si
 	
-	i <- 1;
-	sumatoria <- 0;
-	
-	Mientras i <= 10  Hacer
-		sumatoria <- sumatoria + i;
-		i <- i + 1;
-	Fin Mientras
+
 	
 	escribir "La de sumatoria de 1 hasta 10 es: ", sumatoria;
 	
